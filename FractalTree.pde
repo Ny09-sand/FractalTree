@@ -12,8 +12,7 @@ public void draw()
   background(0);   
   stroke(0,255,0);   
   //line(320,480,320,380);   
-  drawBranches(400,600,100,3*Math.PI/2); 
-  System.out.println(ter);
+  drawBranches(400,600,100,3*Math.PI/2);
  // if (ter>=//will add later 
 } 
 public void drawBranches(int x,int y, double branchLength, double angle) 
